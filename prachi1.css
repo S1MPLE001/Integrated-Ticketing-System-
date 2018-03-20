@@ -1,0 +1,111 @@
+
+.kuch
+{
+    border-radius:20px;background-color:rgba(100,180,180,0.8);color:white;
+    
+    
+}
+#div1 {
+    width: 960px;
+    height:1000px;
+    background-color: lightskyblue;
+        border:6px double blue;
+        margin:100px;
+    overflow:auto
+        }
+    #div2{
+    width:960px;
+    height: 200px;
+        background-color: teal;
+        }
+    #div3{
+    width:960px;
+    height:820px;
+        }
+    #div4{
+    width :950px;
+    height: 100px;
+        padding: 15px;
+         background-color: red;
+       }
+     #div5{
+    width :960px;
+    height: 50px;
+         background-color:#22313f;}
+@font-face{
+    font-family:font1;
+    src:url(Luna.ttf);
+}
+font-family: 'Jim Nightshade', cursive;
+   }
+     #head1{
+         font-family: font1;
+   
+}
+#head2{
+         font-family: 'Jim Nightshade', cursive;
+   
+}
+ul li{
+    background-color: skyblue;
+    
+    color: blueviolet;
+    width: 200px;
+    float:left;
+    
+    border: 1px solid white;
+    text-align: center;
+    height:40px
+    line-height:40px;
+    position: relative;
+}
+ul li a{
+     text-decoration:inherit;
+    color: red;
+    display:block;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li :hover{
+    background-color: blue;
+    
+}
+ul ul{
+    display:none;
+}
+ul li:hover>ul{
+    display:block;
+}
+ul ul ul{
+    margin-left: 200px;
+    position: absolute;
+    top:0;
+}
+ a {
+                text-decoration: none;
+            color: red;
+}
+#pr{
+    position: relative;
+    transition: all 1s;
+}
+#pr:hover{
+    margin-left:20px;
+}
+span{
+    color:red;
+    font-size: 20px;
+    
+}
+span img{
+    width:20px;
+    height:20px;
+    
+}
+
+    
+    
+}
