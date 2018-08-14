@@ -1,7 +1,7 @@
 <!Doctype html> 
 <html> 
     <head>
-     <link href="prachi1.css" rel="stylesheet" type="text/css">
+     <link href="attraction.css" rel="stylesheet" type="text/css">
     </head>
     <style>
         a : hover  {
