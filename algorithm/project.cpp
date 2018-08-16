@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include<windows.h>
 #define fast ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL)
 #define ll long long int
 using namespace std;
@@ -16,7 +17,7 @@ bool visit[N];
 multiset<pair<ll, ll> > st;
 int n;
 
-
+ll ans;
 void input(){
 	int m, z;
 	string x, y;
@@ -107,22 +108,23 @@ ll querry(){
 		}
 	}
 	vi.push_back(mp[s]);
-	//cout << mndist << "\n";
-	for(auto i : vi){
-		cout << mpp[i] << " ";
+	for(auto i : vi ) {
+		cout << mpp[i] << ' ' ;
 	}
-	cout << "\n";
-	cout << "Fare : " << mndist * 75 << "\n";
-
+	cout << endl ;
+	cout << "FARE  - " << mndist * 75 << "\n" ;
+	//cout << mndist << "\n"
+	ans =  mndist * 75 ;
 }
 
 
 int main(){
+	//while(1)
 	freopen("in.txt","r",stdin);
-    freopen("out.txt","w",stdout);
+	//freopen("out.txt","w",stdout);
 	input();
-	querry();
-		//cout << ans << "\n";
+	 querry();
 
-	return 0;
+	 cout << "TOTAL FARE IS -----------"  << ans ;
+	 return 0 ;
 }
